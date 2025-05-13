@@ -1,16 +1,16 @@
 # Prog2: LR parser based on given LR parsing table
 
 # Grammar rules:
-# 1: E → E + T
-# 2: E → E - T
-# 3: E → T
-# 4: T → T * F
-# 5: T → T / F
-# 6: T → F
-# 7: F → ( E )
-# 8: F → i
+# 1: E -> E + T
+# 2: E -> E - T
+# 3: E -> T
+# 4: T  ->T * F
+# 5: T -> T / F
+# 6: T -> F
+# 7: F -> ( E )
+# 8: F -> i
 
-# Each production is represented as (LHS, RHS count)
+# Each production
 productions = {
     1: ('E', 3),
     2: ('E', 3),
